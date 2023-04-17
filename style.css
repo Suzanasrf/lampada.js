@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lampada-ligada,
+#lampada-desligada{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#lampada-ligada{
+    display: none;
+}
+
+#lampada-ligada.active {
+    display: flex;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background-color: orange;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: transparent;
+}
